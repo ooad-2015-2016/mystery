@@ -1,5 +1,5 @@
 
-# mystery
+ mystery
 
 1. Ahmed Kovačević
 2. Mehmed Kadrić
