@@ -15,13 +15,13 @@ Alarm kao sistem služi da osigura zaštitu vaše imovine, vaše sigurnosti ili 
 
 ##Procesi
 
-###Registracija na aplikaciju
+####Registracija na aplikaciju
 Ukoliko želite pristupiti aplikaciji za kontrolu alarmnog sistema, potrebno je da se registrujete. Prilikom registracije, potrebni su samo osnovni podaci o korisniku. Također, prilikom registracije klijent ima mogućnost odabira passworda kojeg će koristiti ubuduće.
 
-###Korištenje sistema
+####Korištenje sistema
 Ovisno o želji klijenta dolazi do aktiviranja/deaktiviranja alarmnog sistema. Najčešće, klijent prilikom izlaska iz svog doma aktivira alarmni sistem koji ostaje u tom stanju sve dok korisnik ne bude zahtjevao suprotno. Ukoliko dođe do neželjene pojave, pali se sirena, te se korisnik putem telefona obavještava o detekciji uljeza. Nakon obavještavanja najbliže policijske stanice, korisnik dobiva sliku uljeza, te ima mogućnost da upali svjetla u svome domu. Naravno, jedna od opcija jeste i deaktiviranje alarma. Dakle, sistem se pali unošenjem odgovarajućeg password-a. Stanje senzora nam govori o prisustvu uljeza, te u slučaju nekih promjena, sistem se aktivira (npr. ako se koristi IC senzor pomjeraja, ukoliko dođe do detekcije, promjena napona na izlazu senzora aktivira alarm).
 
-###Izvještaj
+####Izvještaj
 Nakon deaktivacije, korisnik dobiva izvještaj o stanju sistema. U izvještaju se nalazi vremenski interval koliko je sistem bio upaljen, vrijeme u koje se desila detekcija uljeza (ukoliko je došlo do detekcije), te slika uljeza.
 
 
@@ -35,10 +35,10 @@ Nakon deaktivacije, korisnik dobiva izvještaj o stanju sistema. U izvještaju s
 
 ##Akteri
 
-**1.** Korisnik usluga
+**1. Korisnik usluga**
 Korisnik usluga je osoba koja ima pristup upravljanja alarmnim sistemom. Ima mogućnost aktiviranja ili deaktiviranja alarma, može odabrati razne opcije obavještavanja nakon detekcije, itd.
-**2.** Supervizor
+**2. Supervizor**
 Osoba koja stoji na raspolaganju klijentu u bilo koje vrijeme. Prilikom detekcije uljeza, supervizor može učiniti određene korake.
-**3.** IT stručnjak
+**3. IT stručnjak**
 Osoba zadužena za tehničku podršku korisnicima ovog sistema. 
 Napomena: Najčešće su supervizor i IT stručnjak ista osoba.
