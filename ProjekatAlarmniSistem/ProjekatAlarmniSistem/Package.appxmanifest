@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="46bef240-d1ba-4baf-b24a-142e4ad9599b"
+    Name="c03a3446-61b4-4e7f-bf42-6a67dbf92274"
     Publisher="CN=Ahmed"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="46bef240-d1ba-4baf-b24a-142e4ad9599b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="c03a3446-61b4-4e7f-bf42-6a67dbf92274" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>ProjekatAlarmniSistem</DisplayName>

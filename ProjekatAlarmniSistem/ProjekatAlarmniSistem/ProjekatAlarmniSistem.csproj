@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{C8EBAC97-6DFD-4119-A5C9-B58C537B14AE}</ProjectGuid>
+    <ProjectGuid>{833674A7-7AFB-40EB-AE53-0442EE10CE84}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ProjekatAlarmniSistem</RootNamespace>
