@@ -3,10 +3,10 @@
 
 ###Tim: mystery
 
-#####1. Ahmed Kovačević
-#####2. Mehmed Kadrić
-#####3. Elvan Pačariz
-#####4. Amina Džebo
+1. Ahmed Kovačević
+2. Mehmed Kadrić
+3. Elvan Pačariz
+4. Amina Džebo
 
 
 ##Opis teme
@@ -27,18 +27,18 @@ Nakon deaktivacije, korisnik dobiva izvještaj o stanju sistema. U izvještaju s
 
 ##Funkcionalnosti
 
--Mogućnost aktiviranja i deaktiviranja alarm sistema
--Mogućnost postavljanja šifre za alarm sistem
--Mogućnost paljenja i gašenja svjetla u vašem domu
--Mogućnost istovremenog obavještavanja po otkrivanju uljeza
--Jednostavna montaža (bez građevinskih radova) 
+- Mogućnost aktiviranja i deaktiviranja alarm sistema
+- Mogućnost postavljanja šifre za alarm sistem
+- Mogućnost paljenja i gašenja svjetla u vašem domu
+- Mogućnost istovremenog obavještavanja po otkrivanju uljeza
+- Jednostavna montaža (bez građevinskih radova) 
 
 ##Akteri
 
-1. Korisnik usluga
+**1.** Korisnik usluga
 Korisnik usluga je osoba koja ima pristup upravljanja alarmnim sistemom. Ima mogućnost aktiviranja ili deaktiviranja alarma, može odabrati razne opcije obavještavanja nakon detekcije, itd.
-2. Supervizor
+**2.** Supervizor
 Osoba koja stoji na raspolaganju klijentu u bilo koje vrijeme. Prilikom detekcije uljeza, supervizor može učiniti određene korake.
-3. IT stručnjak
+**3.** IT stručnjak
 Osoba zadužena za tehničku podršku korisnicima ovog sistema. 
 Napomena: Najčešće su supervizor i IT stručnjak ista osoba.
