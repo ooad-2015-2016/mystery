@@ -42,9 +42,9 @@ Nakon deaktivacije, korisnik dobiva izvještaj o stanju sistema. U izvještaju s
 **1. Korisnik usluga**
 Korisnik usluga je osoba koja ima pristup upravljanja alarmnim sistemom. Ima mogućnost aktiviranja ili deaktiviranja alarma, može odabrati razne opcije obavještavanja nakon detekcije, itd.
 
-**2. Supervizor**
+**2. Supervizor/IT stručnjak**
 Osoba koja stoji na raspolaganju klijentu u bilo koje vrijeme. Prilikom detekcije uljeza, supervizor može učiniti određene korake.
+Osoba zadužena za tehničku podršku korisnicima ovog sistema.
 
-**3. IT stručnjak**
-Osoba zadužena za tehničku podršku korisnicima ovog sistema. 
-Napomena: Najčešće su supervizor i IT stručnjak ista osoba.
+**3. Sistem za registraciju**
+Sistem na koji se registrira korisnik alarm sistema.
