@@ -8,6 +8,24 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360" Margin="0,10,0,-10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="11*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="149*"/>
+                <RowDefinition Height="94*"/>
+                <RowDefinition Height="86*"/>
+                <RowDefinition Height="101*"/>
+                <RowDefinition Height="210*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="button" Content="Aktiviraj alarm" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="186" Grid.Column="1"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="32" Margin="0,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Width="86"/>
+            <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="25" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244" Margin="10,10,0,0"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="32" Grid.Row="2" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Bottom" Width="91" Margin="0,0,0,44"/>
+            <PasswordBox x:Name="passwordBox" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="244"/>
+        </Grid>
 
     </Grid>
 </Page>
