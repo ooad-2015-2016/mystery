@@ -1,0 +1,45 @@
+SOLID PRINCIPI:
+
+
+1. Princip pojedinacne odgovornosti
+
+Princip pojedinacne odgovornosti glasi: KLASA BI TREBALA IMATI SAMO JEDAN RAZLOG ZA PROMJENU.
+Ovaj princip kaže da klase treba da znaju samo o jednoj stvari. Klasa GlavniIzlaz kao i Izlaz
+znaju previše tako da bi ovdje trebalo izvršiti rašclanjivanje poslova. Možemo reci da je zbog
+toga ovaj princip narušen.
+
+
+2. Otvoreno zatvoren princip
+
+Otvoreno zatvoren princip glasi: ENTITETI SOFTVERA (KLASE, MODULI, FUNKCIJE) TREBALI BI BITI 
+OTVORENI ZA NADOGRADNJU, ALI ZATVORENI ZA MODIFIKACIJE. Nacin na koji su kreirane klase omogucuje 
+sposobnost mijenjanja okruženje oko modula bez promjene samog modula. Promjene u implementaciji 
+klasa nece forsirati promjene u drugim klasama. Tako da je ovaj princip zadovoljen.
+
+
+3. Liskov princip zamjene
+
+Liskov princip zamjene glasi: PODTIPOVI MORAJU BITI ZAMJENJIVI NJIHOVIM OSNOVNIM TIPOVIMA.
+Jedini problem bi mogao biti to da svi glavni korisnici nemaju telefon i broj telefona, medutim
+pretpostavljeno je da svi glavni korisnici imaju telefon, uostalom telefon je potreban da se upravlja
+sistemom. Ne može se napraviti nelegalan poziv funkcije na izvedenoj klasi tako da je ovaj
+princip zadovoljen.
+
+
+4. Princip inverzije ovisnosti
+
+Princip inverzije ovisnosti glasi:
+A. MODULI VISOKOG NIVOA NE BI TREBALI OVISITI OD MODULA NISKOG NIVOA.OBA BI TREBALO DA OVISE OD APSTRAKCIJA.
+B. MODULI NE BI TREBALI OVISITI OD DETALJA. DETALJI BI TREBALI BITI OVISNI OD APSTRAKCIJA.
+Jednostavnija interpretacija: ne treba ovisiti od konkretnih klasa. U našem slucaju imamo ovisnost od 
+konkretnih klasa na nekoliko mjesta. Klasa GlavniKorisnik ovisi od konkretne klase Korisnik, klasa
+GlavniIzlaz ovisi od konkretne klase Izlaz itd. Tako da je ovaj princip narušen.
+
+
+5. Princip izoliranja interfejsa
+
+Princip izoliranja interfejsa glasi: KLIJENTI NE TREBA DA OVISE O METODAMA KOJE NECE UPOTREBLJAVATI. 
+U našem dijagramu nemamo ni jednu tzv. "debelu" klasu i u klasama nema metoda koje se nece koristiti tako 
+da je ovaj princip zadovoljen.
+
+
