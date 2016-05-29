@@ -13,39 +13,38 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace ProjekatAlarmniSistem
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Aktivacija : Page
     {
-        public MainPage()
+        Boolean stanje = true;
+        public Aktivacija()
         {
             this.InitializeComponent();
         }
 
-        private void Registration_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Registracija), null);
-        }
-
-        private void Login_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(LoginKorisnik), null);
-        }
-
-        private void Ispisi_Click(object sender, RoutedEventArgs e)
-        {
-            if (Kontenjer.korisnici.Count() == 0) ime.Text = "Nema registrovanih korisnika";
+            if(stanje==true)
+            {
+                stanje = false;
+                Ispis.Text = "Alarm je deaktiviran";
+            }
             else
             {
-                Korisnik k = Kontenjer.korisnici[0];
-                ime.Text = k.Ime;
-                prezime.Text = k.Prezime;
+                stanje = true;
+                Ispis.Text = "Alarm je aktiviran";
             }
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(LoginKorisnik), null);
         }
     }
 }

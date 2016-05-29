@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="ProjekatAlarmniSistem.FormaGlavniIzlaz"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatAlarmniSistem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid HorizontalAlignment="Left" Height="640" VerticalAlignment="Top" Width="360">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="31*"/>
+                <ColumnDefinition Width="113*"/>
+                <ColumnDefinition Width="31*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100*"/>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="80*"/>
+                <RowDefinition Height="114*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="button" Content="Pozovi policiju" Grid.Column="1" HorizontalAlignment="Left" Margin="10,9.667,0,0" Grid.Row="1" VerticalAlignment="Top" Height="64" Width="212"/>
+            <Button x:Name="button1" Content="Obavijesti firmu" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10.333,0,0" Grid.Row="2" VerticalAlignment="Top" Height="63" Width="212"/>
+            <Button x:Name="button2" Content="Upali sirenu" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="212" Height="63" />
+            <Button x:Name="button3" Content="Pregled kamera" Grid.Column="1" HorizontalAlignment="Left" Margin="10,9.667,0,0" Grid.Row="4" VerticalAlignment="Top" Height="64" Width="212"/>
+            <TextBlock x:Name="textBlock" Grid.Column="1" HorizontalAlignment="Left" Margin="10,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" Foreground="#FFFF1700" >
+            	<Run Text="Alarm aktiviran"/>
+            	<Run Text="!!!"/>
+            </TextBlock>
+        </Grid>
+
+    </Grid>
+</Page>
