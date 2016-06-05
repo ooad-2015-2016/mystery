@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="ProjekatAlarmniSistem.Help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjekatAlarmniSistem"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="503*"/>
+            <RowDefinition Height="72*"/>
+            <RowDefinition Height="33*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="7*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="483" Width="280" FontSize="13.333">
+        	<Run FontSize="14.6666666666667" FontFamily="Calibri" Text="Alarmni sistem je aplikacija koja Vam omogucava zastitu i kontrolu nad Vasim domom ili objektom koji zelite nadzirati na veoma jednostavan nacin.Osnovna fukcija sistema je da se pokrene sistem, tj. &quot;ukljucite&quot; alarm kada zelite zapoceti nadziranje. Sistem u stanje nadziranja mogu dovesti glavni i obicni korisnik sa odgovarajucom sifrom i korisnickim imenom. Glavni korisnik pristupa glavnom sistemu, a obicni korisnik podsistemu i za svaki postoji obrazac. Glavni sistem dopusta da se resetuje sifra i da se dobije izvjestaj ako se desi neka promjena, kao i da se vidi stanje senzora, dok kod podsistema, pored osnovnih fukcija da se ukljuci i iskljuci alarm, mozemo vidjeti samo stanje senzora.  Ako dodje do provale, odnosno ako senzor registruje neku promjenu, pokrenut ce se stanje pobude. Glavni korisnik preko glavnog sistema u toj situaciji ima vise opcija: da upali svjetla u kuci, da pozove policiju, kontaktira firmu, pokrene se sirena, te kamera uslika sliku situacije u trenutku pobude. Dakle glavni korisnik, preko glavnog sistema aktivira glavni izlaz, a obicni korisnik aktivira preko podsistema obicni izlaz koji salje sliku, obavjestava firmu i pali sirenu."/>
+        </TextBlock>
+        <Button x:Name="button" Content="Pocetna" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="52" Width="280" Click="button_Click"/>
+
+    </Grid>
+</Page>
