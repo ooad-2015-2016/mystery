@@ -29,8 +29,8 @@
         <Button x:Name="Registration" Content="Registracija" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" Click="Registration_Click"/>
         <Button x:Name="Login" Content="Login (Korisnik)" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Stretch" Click="Login_Click"/>
         <Button x:Name="Ispisi" Content="Ispisi korisnike" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="5" VerticalAlignment="Stretch" Click="Ispisi_Click"/>
-        <TextBlock x:Name="ime" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="7" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
-        <TextBlock x:Name="prezime" Grid.Column="1" HorizontalAlignment="Left" Margin="10,35,0,0" Grid.Row="7" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBlock x:Name="ime" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="9" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200" Grid.Column="1"/>
+        <TextBlock x:Name="prezime" Grid.Column="1" HorizontalAlignment="Left" Margin="10,35,0,0" Grid.Row="9" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
         <Button x:Name="button" Content="Help" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="7" VerticalAlignment="Stretch" Click="button_Click"/>
 
     </Grid>

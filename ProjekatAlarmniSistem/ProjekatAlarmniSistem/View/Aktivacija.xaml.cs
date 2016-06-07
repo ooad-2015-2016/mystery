@@ -37,14 +37,20 @@ namespace ProjekatAlarmniSistem
         }
         private void Setup()
         {
-            _arduino.pinMode(9, PinMode.OUTPUT);
+            _arduino.pinMode(13, PinMode.OUTPUT);
         }
         public void Toggle()
         {
             if (IsOn)
-                _arduino.digitalWrite(9, PinState.LOW);
+            {
+                _arduino.digitalWrite(13, PinState.LOW);
+                Ispis.Text = "Alarm deaktiviran";
+            }
             else
-                _arduino.digitalWrite(9, PinState.HIGH);
+            {
+                _arduino.digitalWrite(13, PinState.HIGH);
+                Ispis.Text = "Alarm aktiviran";
+            }
             IsOn = !IsOn;
         }
 

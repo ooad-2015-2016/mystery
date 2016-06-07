@@ -40,6 +40,7 @@
             <TextBox x:Name="adresa_t" Grid.Column="1" HorizontalAlignment="Left" Margin="9.667,10,0,0" Grid.Row="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="228"/>
             <Button x:Name="button1" Content="Registriraj se" Grid.Column="1" HorizontalAlignment="Left" Margin="9.667,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="228" Click="button1_Click" />
             <TextBlock x:Name="textBlock6" Grid.Column="1" HorizontalAlignment="Left" Margin="9.667,58,0,0" TextWrapping="Wrap" Text="REGISTRACIJA" VerticalAlignment="Top" Width="228" FontFamily="Comic Sans MS"/>
+            <TextBlock x:Name="Ispis" Grid.Column="1" HorizontalAlignment="Left" Margin="9.667,10,0,0" Grid.Row="9" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="40" Width="228"/>
 
         </Grid>
 

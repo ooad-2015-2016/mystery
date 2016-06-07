@@ -27,7 +27,7 @@
                 <RowDefinition Height="160*"/>
                 <RowDefinition Height="157*"/>
             </Grid.RowDefinitions>
-            <Button x:Name="button" Content="Aktiviraj/Deakt" Grid.Column="2" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch" FontSize="21.333" Click="button_Click"/>
+            <Button x:Name="button" Content="Aktiviraj/Deakt" Grid.Column="2" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Top" FontSize="21.333" Click="button_Click" Height="68"/>
             <TextBlock x:Name="Ispis" Grid.Row="3" TextWrapping="Wrap" Text="" Grid.Column="2" />
             <Button x:Name="button1" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button1_Click" Grid.Row="6"/>
         </Grid>
